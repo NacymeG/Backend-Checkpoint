@@ -17,5 +17,5 @@ app.use('/', (req, res) => {
 });
 
 app.listen(backPort, () => {
-  console.log(`Retrofit is listen on http://localhost:${backPort} !`);
+  console.log(`listening on http://localhost:${backPort} !`);
 });
